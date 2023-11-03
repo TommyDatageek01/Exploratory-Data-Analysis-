@@ -10,8 +10,7 @@ I used:
 
 Special codes in this project include
 
-```
-   Python
+```Python
 df3 = df2.transpose()
   ````
  
@@ -20,16 +19,14 @@ df2 = df.groupby('Continent').mean().sort_values(by = '2022 Population', ascendi
 ```
 
 
-```
-   Python
+```Python
 sns.heatmap(df.corr(), annot = True)
 plt.rcParams['figure.figsize'] = (20, 10)
 plt.show()
 ```
 
 
-```
-Python
+```Python
 df.select_dtypes(include = 'object')
 
 ``` 

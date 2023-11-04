@@ -1,9 +1,19 @@
 # Exploratory-Data-Analysis-
 
-## Overview
-I used Python to explore the dataset that conisted of the countries of the world. I also used visualization library in Python to visualize the explored dataset,
+## Objectives
+- To learn how to import data into Python
+- To learn how to explore imported data sets
+- To viusalize some portion of the explored data set
 
-I used:
+## Overview
+The data was imported into Python using the code line 
+
+``` Python 
+df = pd.read_csv(r"C:\Users\akinl\Documents\Pandas\world_population.csv")
+```
+I also used visualization library in Python to visualize the explored dataset,
+
+I visualized with:
 - Line plot
 - Heatmap
 - Boxplot
@@ -12,7 +22,7 @@ Special codes in this project include
 
 ```Python
 df3 = df2.transpose()
-  ````
+````
  
    ``` Python
 df2 = df.groupby('Continent').mean().sort_values(by = '2022 Population', ascending = False)
